@@ -1,0 +1,89 @@
+h1  {
+  font-size: 28px;
+  color: #C71585;
+  text-align: left;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  width: 75%;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 75%;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+caption {
+  display table-caption;
+  text-align: center;
+  font-size: 18px;
+  font: bold;
+  font: italic;
+}
+
+table td, table th  {
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+thead th  {
+  background-color: #FFFFFF;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #90EE90;
+}
+
+tbody tr:nth-child(even)  {
+  background-color: #87CEFA;
+}
+
+tbody td:nth-child(1) {
+  background-color: #FFFFFF;
+}
+
+tfoot tr  {
+  background-color: #FFFFFF;
+}
+
+dt  {
+  font-size: 18px;
+  font: bold;
+}
+
+dt:hover + dd {
+    background-color: #9400D3;
+}
+
+.outer_content  {
+  padding: 20px;
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: left;
+  background-color: #FF1493;
+  width: 75%;
+}
+
+.inner_content  {
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  background-color: #1E90FF;
+  text-align: center;
+  min-width: 75%;
+}
+
+img {
+  float: left;
+  width: 100px;
+  height: 125px;
+}
