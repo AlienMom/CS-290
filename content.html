@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel = "stylesheet" type = "text/css" href = "style.css">
+  <title>Roxanne's Website</title>
+</head>
+
+<h1>
+  Welcome to Roxanne's Website
+</h1>
+
+<p>&nbsp</p>
+
+<table>
+  <caption>Star Trek Trivia</caption>
+  <thead>
+    <tr>
+      <th>&nbsp</th>
+      <th>TOS</th>
+      <th>TNG</th>
+      <th>DS9</th>
+      <th>VOY</th>
+      <th>ENT</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td colspan = "2">My Favorite Series:</td>
+      <td colspan = "4">Star Trek: The Next Generation</td>
+     </tbody>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td><i>Captain</i></td>
+      <td><font color = "red">Kirk</font></td>
+      <td>Picard</td>
+      <td><font color = "blue">Sisko</font></td>
+      <td>Janeway</td>
+      <td>Archer</td>
+    </tr>
+    <tr>
+      <td><i>Favorite</i></td>
+      <td><font color = "red">Spock</font></td>
+      <td>Riker</td>
+      <td><font color = "blue">Jadzia Dax</font></td>
+      <td>B'Elanna</td>
+      <td>T'Pol</td>
+    </tr>
+    <tr>
+      <td><i>Villain</i></td>
+      <td><font color = "red">Khaaaan!</font></td>
+      <td>Q</td>
+      <td><font color = "blue">Cardassians</font></td>
+      <td>Borg</td>
+      <td>Xindi</td>
+    </tr>
+    <tr>
+      <td><i>Episodes</i></td>
+      <td><font color = "red">79</font></td>
+      <td>178</td>
+      <td><font color = "blue">176</font></td>
+      <td>172</td>
+      <td>98</td>
+    </tr>
+    <tr>
+      <td><i>Seasons</i></td>
+      <td><font color = "red">3</font></td>
+      <td>7</td>
+      <td><font color = "blue">7</font></td>
+      <td>7</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp</p>
+
+<dl>
+  <dt>Amateur Radio</dt>
+  <dd>A hobby that uses radio frequencies to transmit information, locally or over vast differences.</dd>
+  <p>&nbsp</p>
+  <dt>DX</dt>
+  <dd>In the amateur radio world, DX is an abbreviation for "distance," usually meaning outside of one's home country.</dd>
+  <p>&nbsp</p>
+  <dt>Morse Code</dt>
+  <dd>This system uses short and long signals to communicate over long distances. It is still in use today.</dd>
+</dl>
+<p>&nbsp</p>
+
+<div class = "outer_content">
+<p>&nbsp</p>
+  <div class = "inner_content">
+    <p>&nbsp</p>
+    <p>
+      Hello from Germany!
+    </p>
+    <p>&nbsp</p>
+  </div>
+  <p>&nbsp</p>
+</div>
+<p>&nbsp</p>
+
+<form name = "getForm" id = "getForm" method = "get" action = "http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php">
+  <fieldset>
+    <legend>Questions for You (GET)</legend>
+    <p>
+      <label for = "input_1">
+        <span>What is your favorite TV show?</span>
+        <input type = "text" name = "text_input" id = "input_1"> 
+      </label>
+    </p>
+    <p>
+      <label for = "input_2">
+        <span>How many pets and/or children do you have?</span>
+        <input type = "number" name = "numerical_input" id = "input_2"> 
+      </label>
+    </p>
+    <p>
+      <label for = "input_3">
+        <span>Please create a password</span>
+        <input type = "password" name = "password_input" id = "input_3"> 
+      </label>
+    </p>
+  </fieldset> 
+
+  <fieldset>
+    <legend>Your Favorite Candy</legend>
+    <ul>
+      <il>
+        <label for = "candy_1">
+          <input type = "radio" name = "candy" id = "candy_1" value = "Snickers">
+          Snickers
+        </label>
+      </il>
+      <il>
+        <label for "candy_2">
+          <input type = "radio" name = "candy" id = "candy_2" value = "Skittles">
+          Skittles
+        </label>
+      </il>
+      <il>
+        <label for "candy_3">
+          <input type = "radio" name = "candy" id = "candy_3" value = "Mentos">
+          Mentos
+        </label>
+      </il>
+    </ul>
+  </fieldset>
+<button>Submit My Entries!</button>
+</form>
+<p>&nbsp</p>
+
+<form name = "postForm" id = "postForm" method = "post" action = "http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php">
+  <fieldset>
+    <legend>Questions for You (POST)</legend>
+    <p>
+      <label for = "input_1">
+        <span>What is your favorite TV show?</span>
+        <input type = "text" name = "text_input" id = "input_1"> 
+      </label>
+    </p>
+    <p>
+      <label for = "input_2">
+        <span>How many pets and/or children do you have?</span>
+        <input type = "number" name = "numerical_input" id = "input_2"> 
+      </label>
+    </p>
+    <p>
+      <label for = "input_3">
+        <span>Please create a password</span>
+        <input type = "password" name = "password_input" id = "input_3"> 
+      </label>
+    </p>
+  </fieldset> 
+  <fieldset>
+    <legend>Your Favorite Candy</legend>
+    <ul>
+      <il>
+        <label for = "candy_1">
+          <input type = "radio" name = "candy" id = "candy_1" value = "Snickers">
+          Snickers
+        </label>
+      </il>
+      <il>
+        <label for "candy_2">
+          <input type = "radio" name = "candy" id = "candy_2" value = "Skittles">
+          Skittles
+        </label>
+      </il>
+      <il>
+        <label for "candy_3">
+          <input type = "radio" name = "candy" id = "candy_3" value = "Mentos">
+          Mentos
+        </label>
+      </il>
+    </ul>
+  </fieldset>
+<button>Post My Entries!</button>
+</form>
+<p>&nbsp</p>
+
+</html>
